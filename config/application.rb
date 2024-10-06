@@ -20,6 +20,11 @@ Bundler.require(*Rails.groups)
 
 module Rubilio
   class Application < Rails::Application
+    # Three extra paths added for phlex
+    config.autoload_paths << "#{root}/app/views"
+    config.autoload_paths << "#{root}/app/views/layouts"
+    config.autoload_paths << "#{root}/app/views/components"
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
