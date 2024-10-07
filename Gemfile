@@ -42,7 +42,7 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 # Object oriented views, see https://www.phlex.fun/
-gem "phlex-rails", "~> 1.1"
+gem "phlex-rails", "~> 1.2"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
